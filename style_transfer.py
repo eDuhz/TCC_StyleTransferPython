@@ -115,7 +115,7 @@ def stylize(network, initial, initial_noiseblend, content, styles, preserve_colo
         
         ##########################################################################################
         # Thanks Anish Athalye for the optimizer setup
-        # Copyright (c) 2015-2017 Anish Athalye. Released under GPLv3.
+        #
 
         def print_progress():
             stderr.write('  content loss: %g\n' % content_loss.eval())
